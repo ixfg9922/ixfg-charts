@@ -7,12 +7,12 @@ entries:
       intersystems/sds-title: Grafana for SDS
     apiVersion: v2
     appVersion: 0.1.0
-    created: "2022-12-01T17:06:16.787947-05:00"
+    created: "2022-12-01T17:08:31.536722-05:00"
     description: Grafana for SDS
-    digest: 61f91ee240c4513003db68f06dda2928fa0f193072f650894b54933d0d31be0e
+    digest: 53349e4e9e06ba433224542d83d39c22470fd2b054165f4b5e9f3caf6a815571
     name: sds-grafana
     type: application
     urls:
     - https://ixfg9922.github.io/ixfg-charts/sds-grafana-0.1.0.tgz
     version: 0.1.0
-generated: "2022-12-01T17:06:16.787228-05:00"
+generated: "2022-12-01T17:08:31.536002-05:00"
