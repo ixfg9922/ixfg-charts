@@ -1,0 +1,7 @@
+
+
+
+ui:
+  enabled: true
+  hostname: "localhost"
+  port: "3000"
