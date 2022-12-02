@@ -1,19 +1,19 @@
 apiVersion: v1
 externalServicesDeclarations:
-- name: isc-sds-prometheus-ui
+- name: iscSdsPrometheusUi
   type: loadBalancer
-  hostnameChartField: isc-sds-prometheus-ui.hostname
-  loadBalancerPortChartField: isc-sds-prometheus-ui.port
+  hostnameChartField: iscSdsPrometheusUi.hostname
+  loadBalancerPortChartField: iscSdsPrometheusUi.port
   enabled: false
-  enabledChartField: isc-sds-prometheus-ui.enabled
+  enabledChartField: iscSdsPrometheusUi.enabled
   label: Prometheus UI
   description: Port to access the Prometheus UI over a Load Balancer
-- name: isc-sds-grafana-ui
+- name: iscSdsGrafanaUi
   type: loadBalancer
-  hostnameChartField: isc-sds-grafana-ui.hostname
-  loadBalancerPortChartField: isc-sds-grafana-ui.port
+  hostnameChartField: iscSdsGrafanaUi.hostname
+  loadBalancerPortChartField: iscSdsGrafanaUi.port
   enabled: false
-  enabledChartField: isc-sds-grafana-ui.enabled
+  enabledChartField: iscSdsGrafanaUi.enabled
   label: Grafana UI
   description: Port to access the Grafana UI over a Load Balancer
 endpoints:
