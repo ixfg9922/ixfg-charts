@@ -2,11 +2,11 @@
 # **********************************************************
 # ISC SDS VALUES
 # **********************************************************
-iscSdsPrometheusUi:
+iscsdsprometheusui:
   enabled: true
   hostname: "localhost"
   port: "9090"
-iscSdsGrafanaUi:
+iscsdsgrafanaui:
   enabled: true
   hostname: "localhost"
   port: "3000"
