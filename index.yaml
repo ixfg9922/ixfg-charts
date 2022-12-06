@@ -7,7 +7,7 @@ entries:
       intersystems/sds-title: Grafana for SDS
     apiVersion: v2
     appVersion: 0.1.0
-    created: "2022-12-05T22:55:19.955289-05:00"
+    created: "2022-12-05T23:46:51.703561-05:00"
     description: Grafana for SDS
     digest: 53349e4e9e06ba433224542d83d39c22470fd2b054165f4b5e9f3caf6a815571
     name: sds-grafana
@@ -28,7 +28,7 @@ entries:
       intersystems/sds-title: Prometheus for Smart Data Services
     apiVersion: v2
     appVersion: 0.60.1
-    created: "2022-12-05T22:55:19.981386-05:00"
+    created: "2022-12-05T23:46:51.729158-05:00"
     dependencies:
     - condition: kubeStateMetrics.enabled
       name: kube-state-metrics
@@ -43,7 +43,7 @@ entries:
       repository: https://grafana.github.io/helm-charts
       version: 6.43.*
     description: This service collects Kubernetes manifests, Grafana dashboards, and Prometheus rules combined with documentation and scripts to provide easy to operate end-to-end Kubernetes cluster monitoring with Prometheus using the Prometheus Operator.
-    digest: 6c0bb212a0055791ef30870876500990df2e3e598c998296789013e7a4ce298e
+    digest: a93813a6be8732f78799ba3ec2219365c89cda49706bcd0b0b2ad3ba06e3af70
     home: https://github.com/prometheus-operator/kube-prometheus
     icon: https://ixfg9922.github.io/ixfg-charts/sds-prometheus/icon.png
     keywords:
@@ -74,4 +74,4 @@ entries:
     urls:
     - https://ixfg9922.github.io/ixfg-charts/sds-prometheus-42.1.1.tgz
     version: 42.1.1
-generated: "2022-12-05T22:55:19.954486-05:00"
+generated: "2022-12-05T23:46:51.702756-05:00"
