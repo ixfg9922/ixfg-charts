@@ -1,0 +1,49 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: connectors-python
+  namespace: {{.Release.Name}}
+  labels:
+    app: connectors-python
+    
+    
+spec:
+  replicas: {{.Values.replicaCount}}
+  selector:
+    matchLabels:
+      app: connectors-python
+  template:
+    metadata:
+      labels:
+        app: connectors-python
+    spec:
+      # imagePullSecrets:
+      #   - name: intersystems-container-registry-secret
+      imagePullSecrets:
+          {{- if .Values.requiredSecrets.intersystemsContainerRegistrySecret }}    
+          - name: {{ .Values.requiredSecrets.intersystemsContainerRegistrySecret }}
+          {{- end }}
+      containers:
+        - name: sds-connectors-python
+          # image: containers.intersystems.com/iscinternal/sds-service/sds-connectors-python:0.1
+          image: {{ .Values.image.registry }}/{{ .Values.image.repository }}:{{ .Chart.AppVersion }}
+          imagePullPolicy: {{.Values.image.pullPolicy}}
+          resources:
+            requests:
+              cpu: {{ .Values.compute.database.cpu }}
+              memory: {{ .Values.compute.database.memory }}
+          ports:
+            - name: http
+              containerPort: 8000
+      {{- if .Values.compute.database.nodeTypeSelector }}
+      nodeSelector:
+        sds/node-type: {{ .Values.compute.database.nodeTypeSelector }}
+      {{- end }}
+      # resources:
+      #   requests:
+      #     cpu: {{ .Values.compute.database.cpu }}
+      #     memory: {{ .Values.compute.database.memory }}
+      tolerations:
+      - key: sds/select-worker
+        value: select-worker
+        effect: NoSchedule

@@ -1,0 +1,10 @@
+annotations:
+  intersystems/sds-category: custom
+  intersystems/sds-organization: InterSystems Corporation
+  intersystems/sds-title: SDS Connectors Python
+apiVersion: v2
+appVersion: "0.1"
+description: A Helm chart for Kubernetes
+name: sds-connectors-python
+type: application
+version: 0.1.0
