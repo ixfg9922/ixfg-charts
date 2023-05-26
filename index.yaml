@@ -1,5 +1,20 @@
 apiVersion: v1
 entries:
+  sds-connectors-python:
+  - annotations:
+      intersystems/sds-category: custom
+      intersystems/sds-organization: InterSystems Corporation
+      intersystems/sds-title: SDS Connectors Python
+    apiVersion: v2
+    appVersion: "0.1"
+    created: "2023-05-26T14:43:29.198051-04:00"
+    description: A Helm chart for Kubernetes
+    digest: d965adf70094852cb637fd3b1a74ff113dac2e75510e649bd4e4d85a00d2aa3c
+    name: sds-connectors-python
+    type: application
+    urls:
+    - sds-connectors-python-0.1.0.tgz
+    version: 0.1.0
   sds-grafana:
   - annotations:
       intersystems/sds-category: custom
@@ -7,13 +22,13 @@ entries:
       intersystems/sds-title: Grafana for SDS
     apiVersion: v2
     appVersion: 0.1.0
-    created: "2022-12-05T23:46:51.703561-05:00"
+    created: "2023-05-26T14:43:29.198402-04:00"
     description: Grafana for SDS
     digest: 53349e4e9e06ba433224542d83d39c22470fd2b054165f4b5e9f3caf6a815571
     name: sds-grafana
     type: application
     urls:
-    - https://ixfg9922.github.io/ixfg-charts/sds-grafana-0.1.0.tgz
+    - sds-grafana-0.1.0.tgz
     version: 0.1.0
   sds-prometheus:
   - annotations:
@@ -28,7 +43,7 @@ entries:
       intersystems/sds-title: Prometheus for Smart Data Services
     apiVersion: v2
     appVersion: 0.60.1
-    created: "2022-12-05T23:46:51.729158-05:00"
+    created: "2023-05-26T14:43:29.221292-04:00"
     dependencies:
     - condition: kubeStateMetrics.enabled
       name: kube-state-metrics
@@ -42,7 +57,10 @@ entries:
       name: grafana
       repository: https://grafana.github.io/helm-charts
       version: 6.43.*
-    description: This service collects Kubernetes manifests, Grafana dashboards, and Prometheus rules combined with documentation and scripts to provide easy to operate end-to-end Kubernetes cluster monitoring with Prometheus using the Prometheus Operator.
+    description: This service collects Kubernetes manifests, Grafana dashboards, and
+      Prometheus rules combined with documentation and scripts to provide easy to
+      operate end-to-end Kubernetes cluster monitoring with Prometheus using the Prometheus
+      Operator.
     digest: a93813a6be8732f78799ba3ec2219365c89cda49706bcd0b0b2ad3ba06e3af70
     home: https://github.com/prometheus-operator/kube-prometheus
     icon: https://ixfg9922.github.io/ixfg-charts/sds-prometheus/icon.png
@@ -72,6 +90,6 @@ entries:
     - https://github.com/prometheus-operator/kube-prometheus
     type: application
     urls:
-    - https://ixfg9922.github.io/ixfg-charts/sds-prometheus-42.1.1.tgz
+    - sds-prometheus-42.1.1.tgz
     version: 42.1.1
-generated: "2022-12-05T23:46:51.702756-05:00"
+generated: "2023-05-26T14:43:29.196764-04:00"
