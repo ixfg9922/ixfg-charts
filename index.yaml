@@ -7,7 +7,7 @@ entries:
       intersystems/sds-title: InterSystems IRIS Database
     apiVersion: v2
     appVersion: 1.2.5
-    created: "2023-05-26T15:10:34.29936-04:00"
+    created: "2023-05-26T15:25:11.913362-04:00"
     description: Use this service to securely store your solution's tables. This service
       collaborates with many other services as either a destination for data or a
       source of data. A Kafka Connector Service for instance, can only be deployed
@@ -18,7 +18,7 @@ entries:
     name: isc-iris-db
     type: application
     urls:
-    - isc-iris-db-1.2.5.tgz
+    - https://ixfg9922.github.io/ixfg-charts/isc-iris-db-1.2.5.tgz
     version: 1.2.5
   sds-connectors-python:
   - annotations:
@@ -27,13 +27,13 @@ entries:
       intersystems/sds-title: SDS Connectors Python
     apiVersion: v2
     appVersion: "0.1"
-    created: "2023-05-26T15:10:34.300231-04:00"
+    created: "2023-05-26T15:25:11.914025-04:00"
     description: A Helm chart for Kubernetes
     digest: 048d4b4704c35f6708efdf4a89a31a118ef964414c6ba97b8f65af4793676918
     name: sds-connectors-python
     type: application
     urls:
-    - sds-connectors-python-0.1.0.tgz
+    - https://ixfg9922.github.io/ixfg-charts/sds-connectors-python-0.1.0.tgz
     version: 0.1.0
   sds-grafana:
   - annotations:
@@ -42,13 +42,13 @@ entries:
       intersystems/sds-title: Grafana for SDS
     apiVersion: v2
     appVersion: 0.1.0
-    created: "2023-05-26T15:10:34.300956-04:00"
+    created: "2023-05-26T15:25:11.914493-04:00"
     description: Grafana for SDS
     digest: 53349e4e9e06ba433224542d83d39c22470fd2b054165f4b5e9f3caf6a815571
     name: sds-grafana
     type: application
     urls:
-    - sds-grafana-0.1.0.tgz
+    - https://ixfg9922.github.io/ixfg-charts/sds-grafana-0.1.0.tgz
     version: 0.1.0
   sds-prometheus:
   - annotations:
@@ -63,7 +63,7 @@ entries:
       intersystems/sds-title: Prometheus for Smart Data Services
     apiVersion: v2
     appVersion: 0.60.1
-    created: "2023-05-26T15:10:34.325263-04:00"
+    created: "2023-05-26T15:25:11.940207-04:00"
     dependencies:
     - condition: kubeStateMetrics.enabled
       name: kube-state-metrics
@@ -110,6 +110,6 @@ entries:
     - https://github.com/prometheus-operator/kube-prometheus
     type: application
     urls:
-    - sds-prometheus-42.1.1.tgz
+    - https://ixfg9922.github.io/ixfg-charts/sds-prometheus-42.1.1.tgz
     version: 42.1.1
-generated: "2023-05-26T15:10:34.298578-04:00"
+generated: "2023-05-26T15:25:11.911698-04:00"
