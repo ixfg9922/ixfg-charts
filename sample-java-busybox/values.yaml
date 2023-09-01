@@ -2,7 +2,7 @@ frequency: "30"
 tableName: javaBusybox
 jdbcConnectionString: jdbc:IRIS://127.0.0.1:1972/USER
 image:
-  registry: iscmcasey
+  registry: your-registry
   repository: sample-java-busybox
 
 cloudProvider: "dev"
