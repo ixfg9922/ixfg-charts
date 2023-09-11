@@ -1,0 +1,29 @@
+apiVersion: v1
+secrets:
+- field: requiredSecrets.intersystemsContainerRegistrySecret
+  type: image-pull-secret
+  subType: containers.intersystems.com
+  reason: These are the credentials to authenticate with containers.intersystems.com
+endpoints:
+- title: How to use the Java BusyBox Service
+  group: Documentation
+  description: A step-by-step guide regarding how to deploy the Java BusyBox SDS Service for use with IRIS using the SDS Control Plane
+  type: browsing
+  url: https://usconfluence.iscinternal.com/display/FS/How+to+Deploy+the+Java+BusyBox+SDS+Service
+  contexts:
+  - portal
+  - catalog
+  - documentation
+  visibility: foreign
+  presentation: link
+compute:
+  computeSpecs:
+  - name: main
+    label: Node Specification
+    categoryFilter: CO,MO,GP
+    minCPU: 1
+    minRAM: 1
+    nodeSelectorField: compute.main.nodeTypeSelector
+    cpuRequestField: compute.main.cpu
+    memoryRequestField: compute.main.memory
+    help: Specifies how many cores and how much memory the dedicated node will have 

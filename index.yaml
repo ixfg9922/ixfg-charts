@@ -7,7 +7,7 @@ entries:
       intersystems/sds-title: InterSystems IRIS Database
     apiVersion: v2
     appVersion: 1.2.5
-    created: "2023-09-01T14:58:41.133888-04:00"
+    created: "2023-09-11T16:31:40.175254-04:00"
     description: Use this service to securely store your solution's tables. This service
       collaborates with many other services as either a destination for data or a
       source of data. A Kafka Connector Service for instance, can only be deployed
@@ -27,7 +27,7 @@ entries:
       intersystems/sds-title: Java Data Busybox
     apiVersion: v2
     appVersion: 1.2.0
-    created: "2023-09-01T14:58:41.136606-04:00"
+    created: "2023-09-11T16:31:40.176588-04:00"
     description: use this service to test endpoint dependency injection
     digest: 0d4bb04e597e032c04e64b2bdb922a32465e04779c2ce742e4a63f8bb9eaf525
     icon: https://ixfg9922.github.io/ixfg-charts/sample-java-busybox/icon.png
@@ -43,7 +43,7 @@ entries:
       intersystems/sds-title: SDS Connectors Python
     apiVersion: v2
     appVersion: "0.1"
-    created: "2023-09-01T14:58:41.138303-04:00"
+    created: "2023-09-11T16:31:40.177817-04:00"
     description: A Helm chart for Kubernetes
     digest: 88affb4cad8ac5e9872fe0a04f8e28955f0f90358d4b092a3a420436d23d2d61
     name: sds-connectors-python
@@ -58,7 +58,7 @@ entries:
       intersystems/sds-title: Grafana for SDS
     apiVersion: v2
     appVersion: 0.1.0
-    created: "2023-09-01T14:58:41.139507-04:00"
+    created: "2023-09-11T16:31:40.178557-04:00"
     description: Grafana for SDS
     digest: 53349e4e9e06ba433224542d83d39c22470fd2b054165f4b5e9f3caf6a815571
     name: sds-grafana
@@ -79,7 +79,7 @@ entries:
       intersystems/sds-title: Prometheus for Smart Data Services
     apiVersion: v2
     appVersion: 0.60.1
-    created: "2023-09-01T14:58:41.22782-04:00"
+    created: "2023-09-11T16:31:40.205074-04:00"
     dependencies:
     - condition: kubeStateMetrics.enabled
       name: kube-state-metrics
@@ -128,4 +128,20 @@ entries:
     urls:
     - https://ixfg9922.github.io/ixfg-charts/sds-prometheus-42.1.1.tgz
     version: 42.1.1
-generated: "2023-09-01T14:58:41.1294-04:00"
+  sds-ubuntu:
+  - annotations:
+      intersystems/sds-category: sample
+      intersystems/sds-organization: InterSystems Corporation
+      intersystems/sds-title: Ubuntu instance
+    apiVersion: v2
+    appVersion: 1.0.0
+    created: "2023-09-11T16:31:40.206274-04:00"
+    description: Ubuntu instance
+    digest: ac8e501f1ab79c7d1ed4af6366505206c277da35b56157fd99aa82ab0008e034
+    icon: https://ixfg9922.github.io/ixfg-charts/sds-ubuntu/icon.png
+    name: sds-ubuntu
+    type: application
+    urls:
+    - https://ixfg9922.github.io/ixfg-charts/sds-ubuntu-1.0.0.tgz
+    version: 1.0.0
+generated: "2023-09-11T16:31:40.173946-04:00"
