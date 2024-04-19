@@ -1,25 +1,5 @@
 apiVersion: v1
 entries:
-  isc-iris-db:
-  - annotations:
-      intersystems/sds-category: core,database
-      intersystems/sds-organization: InterSystems Corporation
-      intersystems/sds-title: InterSystems IRIS Database
-    apiVersion: v2
-    appVersion: 1.2.5
-    created: "2023-09-11T16:31:40.175254-04:00"
-    description: Use this service to securely store your solution's tables. This service
-      collaborates with many other services as either a destination for data or a
-      source of data. A Kafka Connector Service for instance, can only be deployed
-      if attached to an IRIS database. On the other hand, a Live Aggregation Service
-      needs an IRIS database as the source of the live data to aggregate.
-    digest: 35b38eac610ff90813384898361d67b409f615c0510763a19d0bd641469ca068
-    icon: https://intersystems.github.io/sds-repo-core-released/isc-iris-db/icon.png
-    name: isc-iris-db
-    type: application
-    urls:
-    - https://ixfg9922.github.io/ixfg-charts/isc-iris-db-1.2.5.tgz
-    version: 1.2.5
   java-data-busybox:
   - annotations:
       intersystems/sds-category: sample
@@ -27,14 +7,14 @@ entries:
       intersystems/sds-title: Java Data Busybox
     apiVersion: v2
     appVersion: 1.2.0
-    created: "2023-09-11T16:31:40.176588-04:00"
+    created: "2024-04-19T13:49:48.660101-04:00"
     description: use this service to test endpoint dependency injection
     digest: 0d4bb04e597e032c04e64b2bdb922a32465e04779c2ce742e4a63f8bb9eaf525
     icon: https://ixfg9922.github.io/ixfg-charts/sample-java-busybox/icon.png
     name: java-data-busybox
     type: application
     urls:
-    - https://ixfg9922.github.io/ixfg-charts/java-data-busybox-1.2.0.tgz
+    - java-data-busybox-1.2.0.tgz
     version: 1.2.0
   sds-connectors-python:
   - annotations:
@@ -43,13 +23,13 @@ entries:
       intersystems/sds-title: SDS Connectors Python
     apiVersion: v2
     appVersion: "0.1"
-    created: "2023-09-11T16:31:40.177817-04:00"
+    created: "2024-04-19T13:49:48.66098-04:00"
     description: A Helm chart for Kubernetes
     digest: 88affb4cad8ac5e9872fe0a04f8e28955f0f90358d4b092a3a420436d23d2d61
     name: sds-connectors-python
     type: application
     urls:
-    - https://ixfg9922.github.io/ixfg-charts/sds-connectors-python-0.1.0.tgz
+    - sds-connectors-python-0.1.0.tgz
     version: 0.1.0
   sds-grafana:
   - annotations:
@@ -58,13 +38,13 @@ entries:
       intersystems/sds-title: Grafana for SDS
     apiVersion: v2
     appVersion: 0.1.0
-    created: "2023-09-11T16:31:40.178557-04:00"
+    created: "2024-04-19T13:49:48.661861-04:00"
     description: Grafana for SDS
     digest: 53349e4e9e06ba433224542d83d39c22470fd2b054165f4b5e9f3caf6a815571
     name: sds-grafana
     type: application
     urls:
-    - https://ixfg9922.github.io/ixfg-charts/sds-grafana-0.1.0.tgz
+    - sds-grafana-0.1.0.tgz
     version: 0.1.0
   sds-prometheus:
   - annotations:
@@ -79,7 +59,7 @@ entries:
       intersystems/sds-title: Prometheus for Smart Data Services
     apiVersion: v2
     appVersion: 0.60.1
-    created: "2023-09-11T16:31:40.205074-04:00"
+    created: "2024-04-19T13:49:48.68584-04:00"
     dependencies:
     - condition: kubeStateMetrics.enabled
       name: kube-state-metrics
@@ -126,7 +106,7 @@ entries:
     - https://github.com/prometheus-operator/kube-prometheus
     type: application
     urls:
-    - https://ixfg9922.github.io/ixfg-charts/sds-prometheus-42.1.1.tgz
+    - sds-prometheus-42.1.1.tgz
     version: 42.1.1
   sds-ubuntu:
   - annotations:
@@ -135,13 +115,13 @@ entries:
       intersystems/sds-title: Ubuntu instance
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-09-11T16:31:40.206274-04:00"
+    created: "2024-04-19T13:49:48.688558-04:00"
     description: Ubuntu instance
     digest: ac8e501f1ab79c7d1ed4af6366505206c277da35b56157fd99aa82ab0008e034
     icon: https://ixfg9922.github.io/ixfg-charts/sds-ubuntu/icon.png
     name: sds-ubuntu
     type: application
     urls:
-    - https://ixfg9922.github.io/ixfg-charts/sds-ubuntu-1.0.0.tgz
+    - sds-ubuntu-1.0.0.tgz
     version: 1.0.0
-generated: "2023-09-11T16:31:40.173946-04:00"
+generated: "2024-04-19T13:49:48.656658-04:00"
