@@ -7,14 +7,14 @@ entries:
       intersystems/sds-title: Java Data Busybox
     apiVersion: v2
     appVersion: 1.2.0
-    created: "2024-04-19T13:49:48.660101-04:00"
+    created: "2024-06-10T15:56:56.766401-04:00"
     description: use this service to test endpoint dependency injection
     digest: 0d4bb04e597e032c04e64b2bdb922a32465e04779c2ce742e4a63f8bb9eaf525
     icon: https://ixfg9922.github.io/ixfg-charts/sample-java-busybox/icon.png
     name: java-data-busybox
     type: application
     urls:
-    - java-data-busybox-1.2.0.tgz
+    - https://ixfg9922.github.io/ixfg-charts/java-data-busybox-1.2.0.tgz
     version: 1.2.0
   sds-connectors-python:
   - annotations:
@@ -23,13 +23,13 @@ entries:
       intersystems/sds-title: SDS Connectors Python
     apiVersion: v2
     appVersion: "0.1"
-    created: "2024-04-19T13:49:48.66098-04:00"
+    created: "2024-06-10T15:56:56.76694-04:00"
     description: A Helm chart for Kubernetes
     digest: 88affb4cad8ac5e9872fe0a04f8e28955f0f90358d4b092a3a420436d23d2d61
     name: sds-connectors-python
     type: application
     urls:
-    - sds-connectors-python-0.1.0.tgz
+    - https://ixfg9922.github.io/ixfg-charts/sds-connectors-python-0.1.0.tgz
     version: 0.1.0
   sds-grafana:
   - annotations:
@@ -38,13 +38,13 @@ entries:
       intersystems/sds-title: Grafana for SDS
     apiVersion: v2
     appVersion: 0.1.0
-    created: "2024-04-19T13:49:48.661861-04:00"
+    created: "2024-06-10T15:56:56.767224-04:00"
     description: Grafana for SDS
     digest: 53349e4e9e06ba433224542d83d39c22470fd2b054165f4b5e9f3caf6a815571
     name: sds-grafana
     type: application
     urls:
-    - sds-grafana-0.1.0.tgz
+    - https://ixfg9922.github.io/ixfg-charts/sds-grafana-0.1.0.tgz
     version: 0.1.0
   sds-prometheus:
   - annotations:
@@ -59,7 +59,7 @@ entries:
       intersystems/sds-title: Prometheus for Smart Data Services
     apiVersion: v2
     appVersion: 0.60.1
-    created: "2024-04-19T13:49:48.68584-04:00"
+    created: "2024-06-10T15:56:56.788477-04:00"
     dependencies:
     - condition: kubeStateMetrics.enabled
       name: kube-state-metrics
@@ -106,7 +106,7 @@ entries:
     - https://github.com/prometheus-operator/kube-prometheus
     type: application
     urls:
-    - sds-prometheus-42.1.1.tgz
+    - https://ixfg9922.github.io/ixfg-charts/sds-prometheus-42.1.1.tgz
     version: 42.1.1
   sds-ubuntu:
   - annotations:
@@ -115,13 +115,13 @@ entries:
       intersystems/sds-title: Ubuntu instance
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-04-19T13:49:48.688558-04:00"
+    created: "2024-06-10T15:56:56.789583-04:00"
     description: Ubuntu instance
     digest: ac8e501f1ab79c7d1ed4af6366505206c277da35b56157fd99aa82ab0008e034
     icon: https://ixfg9922.github.io/ixfg-charts/sds-ubuntu/icon.png
     name: sds-ubuntu
     type: application
     urls:
-    - sds-ubuntu-1.0.0.tgz
+    - https://ixfg9922.github.io/ixfg-charts/sds-ubuntu-1.0.0.tgz
     version: 1.0.0
-generated: "2024-04-19T13:49:48.656658-04:00"
+generated: "2024-06-10T15:56:56.76282-04:00"
