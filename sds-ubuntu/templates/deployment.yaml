@@ -19,7 +19,6 @@ spec:
       # {{- end }}
       containers:
       - name: scs-container
-        # image: {{ .Values.image.registry }}/{{ .Values.image.repository }}:{{ .Chart.AppVersion }}
         image: {{ .Values.image }}
         resources:
           requests:
