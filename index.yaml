@@ -6,8 +6,24 @@ entries:
       intersystems/sds-organization: InterSystems Corporation
       intersystems/sds-title: InterSystems Kafka Loader Demo
     apiVersion: v2
+    appVersion: 1.1.4
+    created: "2025-02-16T20:33:10.999906-05:00"
+    description: Use this service to connect to an S3 bucket and load data into a
+      Kafka broker.
+    digest: fcf65aa94259ce3da26b8e048ad942756041654847ca3f623d22cf9c04bb682e
+    icon: https://intersystems.github.io/sds-repo-core-unreleased/isc-kafka-demo-data-loader/icon.png
+    name: isc-kafka-demo-data-loader
+    type: application
+    urls:
+    - https://ixfg9922.github.io/ixfg-charts/isc-kafka-demo-data-loader-1.1.4.tgz
+    version: 1.1.4
+  - annotations:
+      intersystems/sds-category: java,sample,kafka,aws
+      intersystems/sds-organization: InterSystems Corporation
+      intersystems/sds-title: InterSystems Kafka Loader Demo
+    apiVersion: v2
     appVersion: 1.1.3
-    created: "2025-02-14T10:47:45.445476-05:00"
+    created: "2025-02-16T20:33:10.999239-05:00"
     description: Use this service to connect to an S3 bucket and load data into a
       Kafka broker.
     digest: 9cac83465ac541decdaadfab3fb966e4c49b653612fd4696f57a014db6b7f74e
@@ -24,7 +40,7 @@ entries:
       intersystems/sds-title: Java Data Busybox
     apiVersion: v2
     appVersion: 1.2.0
-    created: "2025-02-14T10:47:45.448583-05:00"
+    created: "2025-02-16T20:33:11.002151-05:00"
     description: use this service to test endpoint dependency injection
     digest: 0d4bb04e597e032c04e64b2bdb922a32465e04779c2ce742e4a63f8bb9eaf525
     icon: https://ixfg9922.github.io/ixfg-charts/sample-java-busybox/icon.png
@@ -40,7 +56,7 @@ entries:
       intersystems/sds-title: SDS Connectors Python
     apiVersion: v2
     appVersion: "0.1"
-    created: "2025-02-14T10:47:45.450611-05:00"
+    created: "2025-02-16T20:33:11.003218-05:00"
     description: A Helm chart for Kubernetes
     digest: 88affb4cad8ac5e9872fe0a04f8e28955f0f90358d4b092a3a420436d23d2d61
     name: sds-connectors-python
@@ -55,7 +71,7 @@ entries:
       intersystems/sds-title: Grafana for SDS
     apiVersion: v2
     appVersion: 0.1.0
-    created: "2025-02-14T10:47:45.451675-05:00"
+    created: "2025-02-16T20:33:11.003825-05:00"
     description: Grafana for SDS
     digest: 53349e4e9e06ba433224542d83d39c22470fd2b054165f4b5e9f3caf6a815571
     name: sds-grafana
@@ -76,7 +92,7 @@ entries:
       intersystems/sds-title: Prometheus for Smart Data Services
     apiVersion: v2
     appVersion: 0.60.1
-    created: "2025-02-14T10:47:45.475085-05:00"
+    created: "2025-02-16T20:33:11.027185-05:00"
     dependencies:
     - condition: kubeStateMetrics.enabled
       name: kube-state-metrics
@@ -132,7 +148,7 @@ entries:
       intersystems/sds-title: Ubuntu instance
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-02-14T10:47:45.480821-05:00"
+    created: "2025-02-16T20:33:11.031733-05:00"
     description: Ubuntu instance
     digest: ac8e501f1ab79c7d1ed4af6366505206c277da35b56157fd99aa82ab0008e034
     icon: https://ixfg9922.github.io/ixfg-charts/sds-ubuntu/icon.png
@@ -147,7 +163,7 @@ entries:
       intersystems/sds-title: Ubuntu instance
     apiVersion: v2
     appVersion: 1.0.0-test-100
-    created: "2025-02-14T10:47:45.47827-05:00"
+    created: "2025-02-16T20:33:11.029311-05:00"
     description: Ubuntu instance
     digest: e45d9b0bef1500fbb9e048533af8acce53f2a86bca0b13a75d11debb9d6c4a37
     icon: https://ixfg9922.github.io/ixfg-charts/sds-ubuntu/icon.png
@@ -156,4 +172,4 @@ entries:
     urls:
     - https://ixfg9922.github.io/ixfg-charts/sds-ubuntu-1.0.0-test-100.tgz
     version: 1.0.0-test-100
-generated: "2025-02-14T10:47:45.444576-05:00"
+generated: "2025-02-16T20:33:10.996565-05:00"
